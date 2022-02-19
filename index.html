@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bet_cal</title>
+</head>
+<body>
+    <div>
+        <form class="form">
+            <label for="first">포인트: </label>
+            <input type="number" class="first" name="first">
+            <br>
+            <label for="usual">숫자 큰거(정배확률): </label>
+            <input type="number" class="usual" name="usual">
+            <br>
+            <label for="unusual">숫자 작은거(역배확률): </label>
+            <input type="number" class="unusual" name="unusual">
+            <button class="cal">계산하기</button>
+        </form>
+        <span>내가 걸어야 할 이상적인 포인트: </span><span class="result"></span>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
